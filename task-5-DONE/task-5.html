@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-5</title>
+    <style>
+      body {
+        background: #000;
+        color: white;
+      }
+      .main-container {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        border-radius: 15px;
+        text-align: center;
+        padding: 15px 30px;
+        width: 600px;
+        background-color: rgba(72, 60, 138, 0.705);
+      }
+      input {
+        padding: 7px 15px;
+        border-color: aqua;
+        border-radius: 15px;
+        width: 50%;
+        font-size: 1.3rem;
+      }
+      button{
+        padding: 10px 18px;
+        background: aquamarine;
+        border: none;
+        border-radius: 15px;
+        font-size: 1.3rem;
+        cursor: pointer;
+      }
+      .input-container{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="input-container">
+        <input id="search-field" type="text" placeholder="Please Enter Id.." />
+        <button onclick="loadDataForInput()">Search</button>
+      </div>
+    </section>
+    <section class="main-container">
+      <div class="container">
+        <h2>ADVICE # <span id="advice-id"></span></h2>
+        <h1>" <span id="advice"></span> "</h1>
+      </div>
+    </section>
+    <!-- script files -->
+    <script src="./task-5.js"></script>
+  </body>
+</html>

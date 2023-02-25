@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Task-3</title>
+  </head>
+  <body>
+    <section class="my-4">
+      <div class="flex justify-center gap-4">
+        <button onclick="loadCountryDetails('asia')" id="asia" class="btn ">Asia</button> 
+        <button onclick="loadCountryDetails('africa')" class="btn ">Africa</button> 
+        <button onclick="loadCountryDetails('america')" class="btn ">America</button> 
+        <button onclick="loadCountryDetails('europe')" class="btn ">Europe</button> 
+        <button onclick="loadCountryDetails('oceania')" class="btn ">Oceania</button> 
+      </div>
+    </section>
+    <section id="container" class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 container mx-auto">
+
+    </section>
+    <!-- script files -->
+    <script src="./index.js"></script>
+  </body>
+</html>
